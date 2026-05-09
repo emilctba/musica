@@ -13,7 +13,7 @@
         audio { filter: invert(100%) hue-rotate(180deg) brightness(1.5) contrast(1.2); }
     </style>
 </head>
-<body class="pb-16 flex flex-col min-h-screen">
+<body class="pb-8 flex flex-col min-h-screen">
 
     <header class="sticky top-0 z-40 bg-black/95 backdrop-blur-md border-b border-white/10 pt-6 pb-4 shadow-2xl">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,12 +30,12 @@
             </div>
     </main>
 
-    <footer class="mt-auto py-8 border-t border-white/10 text-center bg-[#0a0a0a]">
-        <p class="text-white/15 font-bold tracking-widest text-sm uppercase"><span class="text-white">@emilctba</span></p>
+    <footer class="mt-auto py-6 border-t border-white/5 text-center bg-[#0a0a0a]">
+        <p class="text-[11px] text-white/30 font-medium tracking-widest uppercase hover:text-white/50 transition-colors cursor-default">@emilctba</p>
     </footer>
 
     <script>
-        // Array com os seus áudios
+        // Array com os seus áudios atualizado
         const data = [
             {
                 n: "Ocarina of Time",
@@ -45,8 +45,14 @@
             },
             {
                 n: "Batida na porta efeito sonoro",
-                d: "Efeito Sonoro (tum tum tum.wav)",
+                d: "Efeito Sonoro (tum-tum-tum.wav)",
                 url: "./tum-tum-tum.wav",
+                img: "logo.avif"
+            },
+            {
+                n: "Emilctba & Jgusta",
+                d: "Collab Track (emilctba-e-jgusta.mp3)",
+                url: "./emilctba-e-jgusta.mp3",
                 img: "logo.avif"
             }
         ];
